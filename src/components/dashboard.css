@@ -1,0 +1,22 @@
+.dashBoardHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    min-height: 5vh;
+    height: max-content;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    right: 5%;
+    background-color: rgb(255, 255, 255);
+    z-index: 9999;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #fce3ee;
+    padding: 10px;
+}
+
+.dashBoardHeader img{
+    width: 50px;
+    height: 50px;
+}
